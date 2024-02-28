@@ -2,7 +2,7 @@ import React from "react";
 
 const BridalEdit = () => {
   return (
-    <section className="relative px-4 lg:px-8 py-12 sm:py-16 lg:py-20 space-y-12">
+    <section className="relative px-4 lg:px-8 py-12 sm:py-16 space-y-12">
       <div className="w-full text-center space-y-4">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl">The Bridal Edit</h1>
         <p className="text-gray-500">Distinct designs that speak to your love story</p>
