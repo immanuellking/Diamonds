@@ -6,6 +6,7 @@ import ShopCategory from "../components/ShopCategory";
 import EndSoon from "../components/EndSoon";
 import BridalEdit from "../components/BridalEdit";
 import Jewerly from "../components/Jewelry";
+import ShopNow from "../components/ShopNow";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <EndSoon />
       <BridalEdit />
       <Jewerly />
+      <ShopNow />
     </div>
   );
 };
