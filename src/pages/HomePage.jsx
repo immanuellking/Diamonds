@@ -8,6 +8,8 @@ import BridalEdit from "../components/BridalEdit";
 import Jewerly from "../components/Jewelry";
 import ShopNow from "../components/ShopNow";
 import Learn from "../components/Learn";
+import Appointment from "../components/Appointment";
+import Inspired from "../components/Inspired";
 
 const HomePage = () => {
   return (
@@ -21,6 +23,8 @@ const HomePage = () => {
       <Jewerly />
       <ShopNow />
       <Learn />
+      <Appointment />
+      <Inspired />
     </div>
   );
 };
