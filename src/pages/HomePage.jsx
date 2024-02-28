@@ -5,6 +5,7 @@ import ShopByShape from "../components/ShopByShape";
 import ShopCategory from "../components/ShopCategory";
 import EndSoon from "../components/EndSoon";
 import BridalEdit from "../components/BridalEdit";
+import Jewerly from "../components/Jewelry";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <ShopCategory />
       <EndSoon />
       <BridalEdit />
+      <Jewerly />
     </div>
   );
 };
