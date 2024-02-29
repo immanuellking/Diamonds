@@ -84,8 +84,8 @@ const Header = () => {
             <PiMonitor size={25} />
           </div>
           <div>
-            <h1 className="text-2xl font-light uppercase">
-              Fine Jewerly Lab<sup>&#174;</sup>
+            <h1 className="text-[20px] font-light uppercase">
+            Brilliant Earth<sup>&#174;</sup>
             </h1>
           </div>
           <div className="flex items-center space-x-4">
