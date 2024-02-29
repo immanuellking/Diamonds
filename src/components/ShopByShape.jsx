@@ -21,7 +21,7 @@ const ShopByShape = () => {
       </h1>
       <div className="w-full">
         <main className="w-full">
-          <div className=" flex lg:justify-center px-8 snap-mandatory snap-center gap-x-14 overflow-auto">
+          <div className=" flex lg:justify-center px-8 snap-mandatory snap-center gap-x-14 overflow-auto hide-x-scrollbar">
             {shapes.map((shape, index) => (
               <div key={index} className="space-y-4 flex flex-col items-center">
                 <div style={{ width: "70px", height: "70px" }}>

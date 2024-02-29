@@ -17,7 +17,7 @@ const ShopCategory = () => {
   return (
     <section className="relative px-4 lg:px-8 py-12 sm:py-16 lg:py-20 space-y-12">
       <h1 className="text-2xl sm:text-3xl lg:text-4xl">Shop By Category</h1>
-      <main className="w-full overflow-auto sm:overflow-hidden" ref={slideRef}>
+      <main className="w-full overflow-auto sm:overflow-hidden hide-x-scrollbar" ref={slideRef}>
         <div className="flex gap-x-4 sm:gap-x-6">
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">

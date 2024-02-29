@@ -5,7 +5,7 @@ const Jewelry = () => {
     <section className="relative px-4 lg:px-8 py-8 space-y-8">
       <h1 className="text-2xl sm:text-3xl lg:text-4xl">Jewelry Trends</h1>
 
-      <main className="w-full overflow-auto">
+      <main className="w-full overflow-auto hide-x-scrollbar">
         <div className="flex gap-x-4 lg:gap-x-8 min-w-[1000px] sm:min-w-full">
           <div className="w-full space-y-4 group ">
             <div>
