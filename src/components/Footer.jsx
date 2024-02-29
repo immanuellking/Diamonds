@@ -287,7 +287,7 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <div className="w-[80%] mx-auto mt-4">
+      <div className="block sm:hidden w-[80%] mx-auto mt-4">
             <h4 className="capitalize">Sign Up For Email</h4>
           <div className="flex mt-4 mb-10">
             <input
