@@ -114,7 +114,7 @@ const Header = () => {
         <div
           className={`${
             open ? "left-0" : "left-[-500px]"
-          } w-full h-[90vh] overflow-auto fixed top-[80px] bg-white py-4 px-4 transition-all duration-200 ease-in`}
+          } w-full h-[90vh] overflow-auto fixed top-[78px] bg-white py-4 px-4 transition-all duration-200 ease-in`}
           style={{ zIndex: 5000 }}
         >
           <div className="">
