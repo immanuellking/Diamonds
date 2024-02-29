@@ -6,7 +6,10 @@ const ShopNow = () => {
       <main className="flex flex-col sm:flex-row gap-8 sm:gap-4">
         <div className="space-y-8">
           <div>
-            <img src="/essentials.avif" alt="" />
+            <img
+              src="https://image.brilliantearth.com/cdn-cgi/image/width=1440,height=1090,quality=100,format=auto/https://cdn.builder.io/api/v1/image/assets%2F9f2a69003c86470ea05deb9ecb9887be%2F69d5f9e5f43541c7a188b334804a724b"
+              alt=""
+            />
           </div>
           <div className="space-y-4">
             <h3 className="text-3xl">The Essentials Edit</h3>
@@ -21,7 +24,10 @@ const ShopNow = () => {
         </div>
         <div className="space-y-8">
           <div>
-            <img src="/sol.avif" alt="" />
+            <img
+              src="https://image.brilliantearth.com/cdn-cgi/image/width=1440,height=1090,quality=100,format=auto/https://cdn.builder.io/api/v1/image/assets%2F9f2a69003c86470ea05deb9ecb9887be%2F52a5b92278e54f8e928159d95bb2c3c1"
+              alt=""
+            />
           </div>
           <div className="space-y-4">
             <h3 className="text-3xl">The Sol Collection</h3>
