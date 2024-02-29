@@ -23,7 +23,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <header className="w-full">
-      <div className="w-full bg-[#183E40] text-center text-white font-normal sm:font-medium text-[11px] sm:text-sm py-2">
+      <div className="hidden sm:block w-full bg-[#183E40] text-center text-white font-normal sm:font-medium text-[11px] sm:text-sm py-2">
         <p>
           ENDS SOON! Receive Up to $450 of Jewerly With Purchase Over $1,000.
           &#62;
@@ -77,35 +77,45 @@ const Header = () => {
         </ul>
       </div>
 
-      <div className="block sm:hidden p-2 px-4 bg-white">
-        <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-4">
-            <FaBars size={25} onClick={() => setOpen(!open)} />
-            <PiMonitor size={25} />
+      <div className="block sm:hidden bg-white">
+        <div className="fixed top-0 left-0 right-0" style={{zIndex: 5000}}>
+          <div className="w-full bg-[#183E40] text-center text-white font-normal sm:font-medium text-[11px] sm:text-sm py-2">
+            <p>
+              ENDS SOON! Receive Up to $450 of Jewerly With Purchase Over
+              $1,000. &#62;
+            </p>
           </div>
-          <div>
-            <h1 className="text-[20px] font-light uppercase">
-            Brilliant Earth<sup>&#174;</sup>
-            </h1>
+
+          <div className="flex justify-between items-center p-2 px-4 bg-white">
+            <div className="flex items-center space-x-4">
+              <FaBars size={25} onClick={() => setOpen(!open)} />
+              <PiMonitor size={25} />
+            </div>
+            <div>
+              <h1 className="text-[20px] font-light uppercase">
+                Brilliant Earth<sup>&#174;</sup>
+              </h1>
+            </div>
+            <div className="flex items-center space-x-4">
+              <BsTelephone size={25} />
+              <RiHandbagLine size={25} />
+            </div>
           </div>
-          <div className="flex items-center space-x-4">
-            <BsTelephone size={25} />
-            <RiHandbagLine size={25} />
-          </div>
-        </div>
-        <div
-          className={`${
-            open ? "hidden" : "flex"
-          } w-full h-10 border-[1px] items-center my-2 px-2 transition-all duration-200 ease-in`}
-        >
-          <input type="search" className="w-[95%] h-6 border-0 outline-0" />
-          <FiSearch size={25} className="" />
+          {/* <div
+            className={`${
+              open ? "hidden" : "flex"
+            } w-full h-10 border-[1px] items-center my-2 px-2 transition-all duration-200 ease-in`}
+          >
+            <input type="search" className="w-[95%] h-6 border-0 outline-0" />
+            <FiSearch size={25} className="" />
+          </div> */}
         </div>
 
         <div
           className={`${
             open ? "left-0" : "left-[-500px]"
-          } min-w-[350px] h-[90vh] overflow-auto absolute top-[80px] bg-white py-4 px-4 transition-all duration-200 ease-in`}
+          } w-full h-[90vh] overflow-auto fixed top-[80px] bg-white py-4 px-4 transition-all duration-200 ease-in`}
+          style={{ zIndex: 5000 }}
         >
           <div className="">
             <div className="w-full h-10 border-[1px] flex items-center my-4 px-2">
