@@ -5,7 +5,7 @@ const Inspired = () => {
   const numbersArray = Array.from({ length: 12 }, (_, index) => index + 1);
 
   return (
-    <section className="px-4 lg:px-8 py-8">
+    <section className="px-4 lg:px-8 py-8 pb-20">
       <main className="bg-[#183E40] pt-8 pb-10 sm:pb-16  lg:pt-12 lg:pb-12 space-y-8 lg:space-y-12">
         <div className="text-white px-4 lg:px-8 flex justify-center sm:justify-between items-end">
           <h1 className="text-2xl sm:text-3xl kg:text-4xl tracking-wide lg:tracking-wider">
