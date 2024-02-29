@@ -5,8 +5,8 @@ const Appointment = () => {
     <section className="px-4 lg:px-8 py-8">
       <main className="space-y-4 lg:space-y-8">
         <div className="w-full">
-          <img src="/appointments.avif" className="w-full hidden sm:block" alt="banner" />
-          <img src="/appointment-mobile.avif" className="w-full sm:hidden block" alt="banner" />
+          <img src="/appointments.jpg" className="w-full hidden sm:block" alt="banner" />
+          <img src="/appointment-mobile.jgp" className="w-full sm:hidden block" alt="banner" />
         </div>
         <div className="sm:w-[60%] lg:w-[40%] space-y-4">
           <div className="space-y-2">
