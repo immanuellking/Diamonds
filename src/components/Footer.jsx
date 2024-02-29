@@ -6,7 +6,7 @@ import {
   FaFacebookF,
   FaPinterestP,
   FaXTwitter,
-  FaLinkedin
+  FaLinkedin,
 } from "react-icons/fa6";
 import { AiFillYoutube } from "react-icons/ai";
 
@@ -67,7 +67,7 @@ const footer = [
 
 const Footer = () => {
   return (
-    <footer className="border-t-[1px] border-gray-500 py-10">
+    <footer className="border-t-[1px] border-gray-500 pt-10">
       <main className="w-[80%] mx-auto grid grid-cols-12 gap-16">
         {footer.map((item, index) => (
           <div key={index + 1} className="col-span-4 space-y-4">
@@ -106,30 +106,58 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-8 flex gap-6 items-center">
-            <div className="w-6 h-6 bg-black rounded-md flex justify-center items-center">
+            <div className="w-6 h-6 bg-black hover:bg-[#0d6363] cursor-pointer rounded-md flex justify-center items-center">
               <FaTiktok size={16} className="text-white" />
             </div>
             <div className=" flex justify-center items-center">
-              <AiFillYoutube size={30} className="" />
+              <AiFillYoutube
+                size={30}
+                className="hover:text-[#0d6363] cursor-pointer"
+              />
             </div>
             <div className=" flex justify-center items-center">
-              <FaInstagram size={28} className="" />
+              <FaInstagram
+                size={28}
+                className="hover:text-[#0d6363] cursor-pointer"
+              />
             </div>
             <div className=" flex justify-center items-center">
-              <FaFacebookF size={20} className="" />
+              <FaFacebookF
+                size={20}
+                className="hover:text-[#0d6363] cursor-pointer"
+              />
             </div>
             <div className=" flex justify-center items-center">
-              <FaPinterestP size={22} className="" />
+              <FaPinterestP
+                size={22}
+                className="hover:text-[#0d6363] cursor-pointer"
+              />
             </div>
             <div className=" flex justify-center items-center">
-              <FaXTwitter size={22} className="" />
+              <FaXTwitter
+                size={22}
+                className="hover:text-[#0d6363] cursor-pointer"
+              />
             </div>
             <div className=" flex justify-center items-center">
-              <FaLinkedin size={25} className="" />
+              <FaLinkedin
+                size={25}
+                className="hover:text-[#0d6363] cursor-pointer"
+              />
             </div>
           </div>
         </div>
       </main>
+      <ul className="w-[80%] mx-auto flex text-xs mt-12 mb-6">
+        <li className="border-r-[1px] border-black pr-3 text-center hover:text-[#0d6363] cursor-pointer hover:underline">©2024 Brilliant Earth, LLC</li>
+        <li className="border-r-[1px] border-black px-3 text-center hover:text-[#0d6363] cursor-pointer hover:underline">Terms & Conditions</li>
+        <li className="border-r-[1px] border-black px-3 text-center hover:text-[#0d6363] cursor-pointer hover:underline">Privacy Policy</li>
+        <li className="border-r-[1px] border-black px-3 text-center hover:text-[#0d6363] cursor-pointer hover:underline">Interest-Based Ads</li>
+        <li className="border-r-[1px] border-black px-3 text-center hover:text-[#0d6363] cursor-pointer hover:underline">Do Not Share My Personal Information (California Residents)</li>
+        <li className="border-r-[1px] border-black px-3 text-center hover:text-[#0d6363] cursor-pointer hover:underline">CA Transparency Act</li>
+        <li className="border-r-[1px] border-black px-3 text-center hover:text-[#0d6363] cursor-pointer hover:underline">CPRA</li>
+        <li className="pl-3 text-center hover:text-[#0d6363] cursor-pointer hover:underline">Site Map</li>
+      </ul>
     </footer>
   );
 };
