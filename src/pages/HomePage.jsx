@@ -10,6 +10,7 @@ import ShopNow from "../components/ShopNow";
 import Learn from "../components/Learn";
 import Appointment from "../components/Appointment";
 import Inspired from "../components/Inspired";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage = () => {
       <Learn />
       <Appointment />
       <Inspired />
+      <Footer />
     </div>
   );
 };
