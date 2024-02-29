@@ -5,7 +5,7 @@ const EndSoon = () => {
     <section className="w-full px-4 lg:px-8">
       <div className="flex justify-center bg-[#183E40]">
         <div className="basis-[50%] flex justify-end" >
-          <img src="/public/end.webp" alt="" />
+          <img src="/end.webp" alt="" />
         </div>
         <div className="flex flex-col justify-center gap-y-2 text-white basis-[50%]  py-8 sm:py-0 px-4 sm:px-0">
           <h1 className="text-lg uppercase">Ends Soon!</h1>

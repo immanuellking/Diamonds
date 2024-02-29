@@ -22,7 +22,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="/public/category/engagement.avif"
+                src="/category/engagement.avif"
                 className="w-full h-full"
                 alt=""
               />
@@ -34,7 +34,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="/public/category/women.avif"
+                src="/category/women.avif"
                 className="w-full h-full"
                 alt=""
               />
@@ -46,7 +46,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="/public/category/men.avif"
+                src="/category/men.avif"
                 className="w-full h-full"
                 alt=""
               />
@@ -58,7 +58,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="/public/category/gemstone.avif"
+                src="/category/gemstone.avif"
                 className="w-full h-full"
                 alt=""
               />
@@ -70,7 +70,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="/public/category/fine.avif"
+                src="/category/fine.avif"
                 className="w-full h-full"
                 alt=""
               />

@@ -26,7 +26,7 @@ const Inspired = () => {
                 </div>
                 <div className="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] lg:w-[350px] lg:h-[350px]">
                   <img
-                    src={`/public/inspired/insta-${num}.webp`}
+                    src={`/inspired/insta-${num}.webp`}
                     className="w-full h-full"
                     alt=""
                   />
