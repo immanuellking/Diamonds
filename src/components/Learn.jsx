@@ -8,7 +8,7 @@ const Learn = () => {
           <div className="group flex flex-col gap-2 items-center justify-end">
             <div>
               <img
-                src="/learn/diamond.png"
+                src="/diamond.png"
                 className="w-[48px] sm:w-[93px]"
                 alt="diamond"
               />
@@ -20,7 +20,7 @@ const Learn = () => {
           <div className="group flex flex-col gap-2 items-center">
             <div>
               <img
-                src="/learn/recycle.png"
+                src="/recycle.png"
                 className="w-[48px] sm:w-[93px]"
                 alt="diamond"
               />
@@ -32,7 +32,7 @@ const Learn = () => {
           <div className="group flex flex-col gap-2 items-center">
             <div>
               <img
-                src="/learn/hand-shake.png"
+                src="hand-shake.png"
                 className="w-[48px] sm:w-[93px]"
                 alt="diamond"
               />
