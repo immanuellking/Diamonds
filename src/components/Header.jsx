@@ -40,7 +40,7 @@ const Header = () => {
 
         <div className="flex-2 text-center">
           <h1 className="text-4xl lg;text-5xl font-light uppercase">
-            Fine Jewerly Lab<sup>&#174;</sup>
+            Brilliant Earth<sup>&#174;</sup>
           </h1>
         </div>
 
