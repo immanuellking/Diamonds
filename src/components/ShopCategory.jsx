@@ -17,12 +17,15 @@ const ShopCategory = () => {
   return (
     <section className="relative px-4 lg:px-8 py-12 sm:py-16 lg:py-20 space-y-12">
       <h1 className="text-2xl sm:text-3xl lg:text-4xl">Shop By Category</h1>
-      <main className="w-full overflow-auto sm:overflow-hidden hide-x-scrollbar" ref={slideRef}>
+      <main
+        className="w-full overflow-auto sm:overflow-hidden hide-x-scrollbar"
+        ref={slideRef}
+      >
         <div className="flex gap-x-4 sm:gap-x-6">
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="engagement.avif"
+                src="https://image.brilliantearth.com/cdn-cgi/image/width=443,height=513,quality=100,format=auto/https://cdn.builder.io/api/v1/image/assets%2F9f2a69003c86470ea05deb9ecb9887be%2F2deb0269d2a847a4b914d7c2fcba46b9"
                 className="w-full h-full"
                 alt=""
               />
@@ -34,7 +37,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="women.avif"
+                src="https://image.brilliantearth.com/cdn-cgi/image/width=443,height=513,quality=100,format=auto/https://cdn.builder.io/api/v1/image/assets%2F9f2a69003c86470ea05deb9ecb9887be%2F440f54ad4d334dc99a8da50d08f7bc47"
                 className="w-full h-full"
                 alt=""
               />
@@ -46,7 +49,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="men.avif"
+                src="https://image.brilliantearth.com/cdn-cgi/image/width=443,height=513,quality=100,format=auto/https://cdn.builder.io/api/v1/image/assets%2F9f2a69003c86470ea05deb9ecb9887be%2F5a390a4ec00347b5a10777fe86a9e4e6"
                 className="w-full h-full"
                 alt=""
               />
@@ -58,7 +61,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="gemstone.avif"
+                src="https://image.brilliantearth.com/cdn-cgi/image/width=443,height=513,quality=100,format=auto/https://cdn.builder.io/api/v1/image/assets%2F9f2a69003c86470ea05deb9ecb9887be%2F0e0e597fee554dd3859e168902d93f20"
                 className="w-full h-full"
                 alt=""
               />
@@ -70,7 +73,7 @@ const ShopCategory = () => {
           <div className="space-y-4">
             <div className="w-[17rem] h-[20rem] sm:w-[22rem] sm:h-[25rem] lg:w-[25rem] lg:h-[30rem]">
               <img
-                src="fine.avif"
+                src="https://image.brilliantearth.com/cdn-cgi/image/width=443,height=513,quality=100,format=auto/https://cdn.builder.io/api/v1/image/assets%2F9f2a69003c86470ea05deb9ecb9887be%2F38df13186cd64f0fb3fba21de728c4e3"
                 className="w-full h-full"
                 alt=""
               />
