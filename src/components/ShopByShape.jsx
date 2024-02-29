@@ -26,7 +26,7 @@ const ShopByShape = () => {
               <div key={index} className="space-y-4 flex flex-col items-center">
                 <div style={{ width: "70px", height: "70px" }}>
                   <img
-                    src={`/shape/${shape}.webp`}
+                    src={`${shape}.webp`}
                     className="w-full "
                     alt=""
                   />
